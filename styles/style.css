@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    }
+.contact  p{
+    margin: 0;
+    padding: 6px;
+    background-color: blue;
+    color: #fff;
+    font-family: monospace;
+    font-size: medium;
+
+    }
+  
+nav {
+    position: fixed;
+}
+.bg-dark {
+    background-color: #04204e !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 28px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+    margin: 0 15px;
+
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.home_banner_area {
+  background: url(https://colorlib.com/preview/theme/hospice/img/banner/home.jpg) no-repeat center bottom;
+  position: relative;
+  z-index: 1;
+  height: 700px; }
+  @media (max-width: 992px) {
+    .home_banner_area {
+      height: 600px; } }
+  .home_banner_area .banner_inner {
+    position: relative;
+    width: 100%;
+    min-height: 900px; }
+    .home_banner_area .banner_inner .banner_content {
+      color: #000000;
+      padding-top: 110px;
+      align-self: center;
+      vertical-align: middle; }
+      .home_banner_area .banner_inner .banner_content h1 {
+        position: relative;
+        font-size: 48px;
+        max-width: 520px;
+        color: #ffffff;
+        margin: 0;
+        
+        bottom:  350px;
+     }
+       
+      
+   
+       
+
+.banner-area {
+  background: url() center;
+  background-size: cover; }
+  .banner-area .primary-btn {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .banner-area .overlay-bg {
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.banner-content {
+  text-align: center; }
+  .banner-content h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 20px; }
+    .banner-content h1 span {
+      font-weight: 700; }
+    @media (max-width: 414px) {
+      .banner-content h1 {
+        font-size: 40px; } }
+  .banner-content h4 {
+    font-weight: 400;
+    letter-spacing: 3px; }
+
+
+.details-form {
+    background-color: #1565C0;
+    padding: 32px;
+
+}
+.details-form label {
+   
+    font-family: monospace;
+    color: #fff;
+    text-align: left;
+}
+
+.main-form {
+    width: 450px;
+    margin: auto;
+}
