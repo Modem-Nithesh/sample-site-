@@ -8,24 +8,25 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
             integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Document</title>
+    <title>Starwings</title>
 </head>
 <body>
      
-    <div class="contact">
+    <div class="top-bar">
         <p>contact:1-1800-5200 Emergency:108</p>
     </div>
      
+
+    <!--Navbar start-->
   
     <nav class="navbar navbar-expand-lg  sticky-top navbar-dark bg-dark">
         <div class="container">
-        <a class="navbar-brand" href="#">Starwings</a>
+        <a class="navbar-brand" href="#"><img src="./starwinsgs-logo.jpg" alt="logo"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!--Navbar start-->
         <div class="col-auto">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
            
@@ -61,116 +62,273 @@
     </nav>
     <!--navbar end-->
 
-  <!--mid sect -->  
-<section class="home_banner_area">
-    <div class="banner_inner d-flex align-items-center">
-        <div class="container">
-            <div class="banner_content row">
-                <div class="col-lg-12">
-                    <h1>We Care for Your Health Every Moment</h1>
-                  
-                     
+    <!--carousal start-->
+     
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <rect width="100%" height="100%" fill="#777" /></svg>
+
+            <div class="container-carousel">
+                <div class="carousel-caption text-left">
+                    <h1>Example headline.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <rect width="100%" height="100%" fill="#777" /></svg>
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                <rect width="100%" height="100%" fill="#777" /></svg>
+
+            <div class="container">
+                <div class="carousel-caption text-right">
+                    <h1>One more for good measure.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
                 </div>
             </div>
         </div>
     </div>
-</section>
-
-    <!--form-->
-
-        <form action="POST" class="main-form" data-netlify="true">
-            <div class="form-group">
-                <label for="username">UserName</label>
-                <input type="text" name="username" id="username" class="form-control">
-            </div>
-        
-            <div class="form-group">
-                <label for="phone-number">Number</label>
-                <input type="tel" name="phone-number" id="phone-number" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="Email">Email</label>
-                <input type="email" name="Email" id="Email" class="form-control">
-            </div>
-        
-            <div class="form-group">
-                <label for="gender">Gender</label>
-                <select name="gender" id="gender" class="form-control">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-            </div>
-            <div class="field">
-                <div data-netlify-recaptcha="true"></div>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        
-        </form>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+   
+ 
+       <!--carousal end-->
+  
 
 
-<!--section-->
-<section class="procedure_category section_gap">
-    <div class="container">
-        <div class="row justify-content-center section-title-wrap">
-            <div class="col-lg-12">
-                <h1>Procedure Category</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                </p>
-            </div>
-        </div>
+       <!-- services -->
+       <div class="container-services">
+    <div class="container marketing">
+    
+        <!-- Three columns of text below the carousel -->
         <div class="row">
             <div class="col-lg-4">
-                <div class="categories_post">
-                    <img src="" alt="Procedure">
-                    <div class="categories_details">
-                        <div class="categories_text">
-                            <div class="border_line"></div>
-                            <a href="single-blog.html">
-                                <h5>Emergency Treatment</h5>
-                            </a>
-                            <div class="border_line"></div>
-                        </div>
-                    </div>
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+                    aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>
+    
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                    cursus magna.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+                    aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>
+    
+                <h2>Heading</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
+                    mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+                    aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>
+    
+                <h2>Heading</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
+                mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        <div class="container marketing">
+        
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+                        aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                            dy=".3em">140x140</text>
+                    </svg>
+        
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                        vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                        cursus magna.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+                        aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                            dy=".3em">140x140</text>
+                    </svg>
+        
+                    <h2>Heading</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
+                        mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                        condimentum nibh.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+                        aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                            dy=".3em">140x140</text>
+                    </svg>
+        
+                    <h2>Heading</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
+                        mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                        condimentum nibh.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+        </div>
+
+
+        
+
+        
+
+
+
+         
+
+
+    <!-- form2 -->
+    <div class="container-form contact-menu">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="contact-info">
+                    <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" />
+                    <h2>Contact Us</h2>
+                    <h4>We would love to hear from you !</h4>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="categories_post">
-                    <img src="" alt="Procedure">
-                    <div class="categories_details">
-                        <div class="categories_text">
-                            <div class="border_line"></div>
-                            <a href="single-blog.html">
-                                <h5>Emergency Treatment</h5>
-                            </a>
-                            <div class="border_line"></div>
+            <div class="col-md-9">
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="fname">First Name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="categories_post">
-                    <img src="" alt="Procedure">
-                    <div class="categories_details">
-                        <div class="categories_text">
-                            <div class="border_line"></div>
-                            <a href="single-blog.html">
-                                <h5>Emergency Treatment</h5>
-                            </a>
-                            <div class="border_line"></div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="lname">Last Name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Email:</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="comment">Comment:</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">Submit</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+ 
+
+<!-- Google map -->
+<section class="map" >
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.0611146520196!2d79.14137581489148!3d18.4355340874586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccd91b7f8df961%3A0x7e9fdd01440cedea!2sstar%20wings%20hospital!5e0!3m2!1sen!2sin!4v1599903670284!5m2!1sen!2sin"
+        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
 </section>
 
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
-   
+    <div style="background-color: #6351ce;">
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0">Get connected with us on social networks!</h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                    <!-- Facebook -->
+                    
+                    <!-- Twitter -->
+                   
+                    <!-- Google +-->
+                   
+                    <!--Linkedin -->
+                 
+                  
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+    </div>
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left mt-5">
@@ -267,8 +425,6 @@
 
 </footer>
 <!-- Footer -->
-    
-
 
 
 
